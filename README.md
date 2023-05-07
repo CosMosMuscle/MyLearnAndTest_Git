@@ -18,4 +18,9 @@ mkdir test		(현재 위치에 test 디렉토리 생성)
 touch index.txt	(현재 위치에 index.txt 파일 생성)
 ```
 ### ls 
+```
+ls
+```
 현재 디렉토리 폴더, 파일을 보여줌
+
+##git 명령어
