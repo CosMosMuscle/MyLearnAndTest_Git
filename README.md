@@ -92,8 +92,11 @@ git log --pretty  //(히스토리 내용을 본때 다양한 형식으로 바꿔
 git commit --amend  //(가장 최근 커밋에 현재 stage를 덮어쓴다.)
 ```
 ### git reset HEAD <file>
-git reset HEAD [파일 이름]  //(stge된 파일을 Unstage로 변경한다.)
+ 
+ git reset HEAD [파일 이름]  //(stge된 파일을 Unstage로 변경한다.)
 
 ### git checkout --<file>
-git checkout --[파일 이름]	(파일의 변경사항<modified>를 이전으로 되돌린다.)
+ 
+ git checkout --[파일 이름]	(파일의 변경사항<modified>를 이전으로 되돌린다.)
+
 사용에 주의!!!
