@@ -114,13 +114,16 @@ git checkout --[파일 이름]	(파일의 변경사항<modified>를 이전으로
  ```
  git remote
  git remote -v  (단축 이름과 URL을 함께 볼 수 있다.)
- ```
+
+ git remote remove [단축이름]  //지정한 저장소를 지운다.
+```
  - 현재 프로젝트에 등록된 리모트 저장소를 확인할 수 있다.
  - 리모트 저장소의 단축 이름을 보여준다.
  - 저장소를 Clone하면 'origin' 이라는 저장소가 자동으로 등록되어 기본적으로 'origin'을 보여준다.
  ```
  git remote add [단축이름] [url]
  ```
+
  
  
  
